@@ -1,0 +1,17 @@
+# Java compiled files
+*.class
+
+# Javadoc output
+docs/
+
+# IntelliJ / VS Code / Eclipse
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# OS junk
+.DS_Store
+Thumbs.db
