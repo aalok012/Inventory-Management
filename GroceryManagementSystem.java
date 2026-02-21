@@ -35,12 +35,16 @@ public static void printInventory(String[] names, double[] prices, int[] stocks)
 }
 
 /**
-* Task 2: Searches for an item by name and updates its stock quantity.
-* If the item isn't found after checking the whole loop, prints "Item not found."
-*/    
-    
-    public static void restockItem(String[] names, int[] stocks, String target, int amount) {
+ * Searches for an item by name and updates its stock quantity.
+ * If the item isn't found after checking the whole loop, prints "Item not found.
+ *
+ * @param names item names array
+ * @param stocks stock array
+ * @param target item to search for
+ * @param amount quantity to add
+ */
 
+public static void restockItem(String[] names, int[] stocks, String target, int amount) {
     for (int i = 0; i < names.length; i++) {
         if (names[i] != null && names[i].equals(target)) {
             stocks[i] += amount;
@@ -54,6 +58,7 @@ public static void printInventory(String[] names, double[] prices, int[] stocks)
  * Starts the grocery management program and handles user menu input.
  * @param args not used
  */
+
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
