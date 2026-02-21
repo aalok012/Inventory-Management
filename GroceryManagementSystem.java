@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  * GroceryManagementSystem
  *
@@ -43,18 +42,12 @@ public static void printInventory(String[] names, double[] prices, int[] stocks)
     }
     
     
-
-    /** Task 1: Iterates through arrays and prints non-empty inventory slots.
-     * Branch - feature-display
-     */
-     public static void printInventory(String[] names, double[] prices, int[] stocks) {
-    }
-
-
     /**
      * Task 2: Searches for an item by name and updates its stock quantity.
      * If the item isn't found after checking the whole loop, prints "Item not found."
-     */    public static void restockItem(String[] names, int[] stocks, String target, int amount) {
+     */    
+    
+    public static void restockItem(String[] names, int[] stocks, String target, int amount) {
 
     for (int i = 0; i < names.length; i++) {
         if (names[i] != null && names[i].equals(target)) {
