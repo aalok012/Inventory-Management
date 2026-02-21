@@ -36,7 +36,7 @@ public static void printInventory(String[] names, double[] prices, int[] stocks)
 
 /**
  * Searches for an item by name and updates its stock quantity.
- * If the item isn't found after checking the whole loop, prints "Item not found.
+ * If the item isn't found after checking the whole loop, prints "Item not found."
  *
  * @param names item names array
  * @param stocks stock array
