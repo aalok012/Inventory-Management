@@ -1,5 +1,28 @@
-
+import java.util.Scanner;
+/**
+ * GroceryManagementSystem
+ *
+ * A simple grocery inventory management system implemented using
+ * parallel arrays. Each index across arrays refers to the same item.
+ *
+ * Features:
+ * -Display inventory
+ * -Restock items
+ * -Menu-driven interface
+ *
+ * This program is designed for collaborative practice.
+ *
+ * @author Aashish Dhital, Alok Kumar Thakur
+ */
 public class GroceryManagementSystem {
+
+/**
+* Prints all non-empty inventory slots.
+*
+* @param names  array storing item names
+* @param prices array storing item prices
+* @param stocks array storing item stock counts
+*/
 
 /**
 * Prints all non-empty inventory slots. */
